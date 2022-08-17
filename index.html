@@ -5,37 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oldagram</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Personal CSS -->
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <img src="images/logo.png" alt="oldagram's logo">
-            <img src="images/user-avatar.png" alt="user's avatar">
-        </div>
+            <img id="logo" src="images/logo.png" alt="oldagram's logo">
+            <img class="user-avatar" src="images/user-avatar.png" alt="user's avatar">
     </header>
 
-    <section>
+    <section class="post-content">
         <div class="container">
             <div class="user-info">
-                <img src="images/avatar-vangogh.jpg" alt="van gogh's avatar">
+                <img class="user-avatar" src="images/avatar-vangogh.jpg" alt="van gogh's avatar">
                 <div class="name-location">
-                    <p id="name">Vincent van Gogh</p>
-                    <p id="location">Zudert, Netherlands</p>
+                    <p class="name">Vincent van Gogh</p>
+                    <p class="location">Zudert, Netherlands</p>
                 </div>
             </div>
 
-            <img src="images/post-vangogh.jpg" alt="van gogh's post">
+            <img class="post-image" src="images/post-vangogh.jpg" alt="van gogh's post">
 
             <div class="body">
-                <div class="icons">
-                    <img src="images/icon-heart.png" alt="heart icon">
-                    <img src="images/icon-comment.png" alt="comment icon">
-                    <img src="images/icon-dm.png" alt="dm icon">
+                <div class="icons-container">
+                    <img class="icons" src="images/icon-heart.png" alt="heart icon">
+                    <img class="icons" src="images/icon-comment.png" alt="comment icon">
+                    <img class="icons" src="images/icon-dm.png" alt="dm icon">
                 </div>
-                <p id="like-count">21,492 likes</p>
-                <p id="username-caption"><span id="username">vincey1853</span>just took a few mushrooms lol</p>
+                <p class="like-count">21,492 likes</p>
+                <p class="username-caption"><span class="username">vincey1853</span> just took a few mushrooms lol</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="post-content">
+        <div class="container">
+            <div class="user-info">
+                <img class="user-avatar" src="images/avatar-courbet.jpg" alt="courbet's avatar">
+                <div class="name-location">
+                    <p class="name">Gustave Courbet</p>
+                    <p class="location">Ornans, France</p>
+                </div>
+            </div>
+
+            <img class="post-image" src="images/post-courbet.jpg" alt="courbet's post">
+
+            <div class="body">
+                <div class="icons-container">
+                    <img class="icons" src="images/icon-heart.png" alt="heart icon">
+                    <img class="icons" src="images/icon-comment.png" alt="comment icon">
+                    <img class="icons" src="images/icon-dm.png" alt="dm icon">
+                </div>
+                <p class="like-count">12,502 likes</p>
+                <p class="username-caption"><span class="username">gus1819</span> i'm feeling a bit stressed tbh</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="post-content">
+        <div class="container">
+            <div class="user-info">
+                <img class="user-avatar" src="images/avatar-ducreux.jpg" alt="ducreux's avatar">
+                <div class="name-location">
+                    <p class="name">Joseph Ducreux</p>
+                    <p class="location">Paris, France</p>
+                </div>
+            </div>
+
+            <img class="post-image" src="images/post-ducreux.jpg" alt="ducreux's post">
+
+            <div class="body">
+                <div class="icons-container">
+                    <img class="icons" src="images/icon-heart.png" alt="heart icon">
+                    <img class="icons" src="images/icon-comment.png" alt="comment icon">
+                    <img class="icons" src="images/icon-dm.png" alt="dm icon">
+                </div>
+                <p class="like-count">15,137 likes</p>
+                <p class="username-caption"><span class="username">jd1735</span> gm friends! which coin are YOU stacking up today?? post below and WAGMI!</p>
             </div>
         </div>
     </section>
