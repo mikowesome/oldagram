@@ -1,15 +1,15 @@
-### Oldagram
+# Oldagram
 
-# Screenshot
-
-![](images/oldagram-screenshot.PNG)
-
-# Links
+## Links
 
 - Solution URL: [Github Repository](https://github.com/mikowesome/oldagram)
 - Live Site URL: [Live Site](https://mikowesome.github.io/oldagram/)
 
-# Build with
+## Screenshot
+
+![](images/oldagram-screenshot.PNG)
+
+## Built with
 
 -HTML
 -CSS
