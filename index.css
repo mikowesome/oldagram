@@ -1,5 +1,115 @@
-html, body {
+* {
     margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #F5F5F5;
+}
+
+/* header */
+
+header {
+    width: 375px;
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #C6C6C6;
+    background-color: #FFFFFF;
+}
+
+#logo {
+    width: 127px;
+    height: 33.02px;
+    background-color: transparent;
+}
+
+.user-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+}
+
+/* section */
+
+.post-content {
+    padding-bottom: 16px;
+    background-color: #FFFFFF;
+}
+
+/* user info */
+
+.user-info {
+    width: 348px;
+    height: 34px;
+    display: flex;
+    gap: 7px;
+    margin: 10px;
+}
+
+.name {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.location {
+    font-size: 12px;
+    line-height: 15.08px;
+}
+
+/* post image */
+
+.post-image {
+    width: 375px;
+    height: 375px;
+}
+
+/* body */
+
+.body {
+    width: 346px;
+    height: 78px;
+}
+
+.icons-container {
+    display: flex;
+    margin-top: 21px;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.icons {
+    width: 23.3px;
+    height: 22.12px;
+}
+
+.like-count,
+.username {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.like-count {
+    margin-top: 11.87px;
+    margin-left: 13px;
+}
+
+.username-caption {
+    margin-top: 12px;
+    margin-left: 13px;
+}
+
+.divider {
+    width: 375px;
+    height: 25px;
+    background-color: #F5F5F5;
+}
